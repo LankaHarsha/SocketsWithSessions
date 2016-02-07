@@ -1,0 +1,22 @@
+{
+  "name": "sockets_with_sessions_in_angular_and_node",
+  "version": "1.0.0",
+  "description": "This application includes the concept of implementing sockets with express sessions in node.js with angular at front-end.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Harsha Lanka",
+  "license": "ISC",
+  "devDependencies": {
+    "bluebird": "^3.2.2",
+    "body-parser": "^1.14.2",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.4.2",
+    "morgan": "^1.6.1",
+    "socket.io": "^1.4.5"
+  }
+}
